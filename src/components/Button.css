@@ -1,0 +1,14 @@
+.Button {
+    color: white;
+    background: linear-gradient(rgb(21, 46, 40), rgb(56, 119, 104));
+    border-radius: 2px;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.Button:hover {
+    color: rgb(21, 46, 40);
+    box-sizing: border-box;
+    cursor: pointer;
+    background: linear-gradient(rgb(21, 46, 40), white);
+}
