@@ -1,48 +1,28 @@
 .Header {
-    background-color: rgb(24, 69, 59);
-    opacity: 0.8;
+    background-color: rgba(24, 69, 59, 0.5);
+    /* opacity: 0.8; */
     background-image:
-        linear-gradient(135deg, rgb(21, 61, 51) 25%, transparent 25%),
-        linear-gradient(225deg, rgb(21, 61, 51) 25%, transparent 25%),
-        linear-gradient(45deg, rgb(21, 61, 51) 25%, transparent 25%),
-        linear-gradient(315deg, rgb(21, 61, 51) 25%, rgb(24, 69, 59) 25%);
+        linear-gradient(135deg, rgba(21, 61, 51, 0.5) 25%, transparent 25%),
+        linear-gradient(225deg, rgba(21, 61, 51, 0.5) 25%, transparent 25%),
+        linear-gradient(45deg, rgba(21, 61, 51, 0.5) 25%, transparent 25%),
+        linear-gradient(315deg, rgba(21, 61, 51, 0.5) 25%, rgba(24, 69, 59, 0.5) 25%);
     background-position: 10px 0, 10px 0, 0 0, 0 0;
     background-size: 20px 20px;
     background-repeat: repeat;
-    width: 100%;
     /* border: solid 5px red; */
 
     height: 15vh;
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
+    z-index: 99;
 }
 
-.overlay {
-    background: radial-gradient(transparent, black 75%);
-    /* border: solid 1px red; */
-}
-
-.spacer {
-    width: 425px;
-    /* border: solid 1px red; */
-}
-
-
-h2 {
-    position: relative;
-    width: 100%;
-    /* border: solid 1px red; */
-    color: white;
-    box-sizing: border-box;
-}
-
-.quote {
-    /* border: solid 1px blue; */
-    display: flex;
-    margin-top: 2.5rem;
-
-}
-.wrapper {
-    height: calc(15vh + 150px);
-    /* border: solid 2px red; */
+@media screen and (max-width: 900px) {
+    .Header {
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        /* border: solid 1px red; */
+    }
 }

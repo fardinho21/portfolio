@@ -5,22 +5,11 @@ import "./Header.css";
 
 const Header = () => {
     return (
-        <div className="wrapper">
-            <div className="overlay">
-                <div className="Header">
-                    <div className="spacer"></div>
-                    <NavBar buttonText={["Home", "About Me", "Resume", "Projects", "Freelance"]}></NavBar>
-                </div>
-            </div>
-            
-            <div className="quote">
-                <div className="spacer"></div>
-                <h2>
-                    Resilliant | Skillful | Driven
-                </h2>
-            </div>
+        <div className="Header">
+
             <Picture></Picture>
-            {/* TODO: Make sure picutre is not cut off when in landscape */}
+            <NavBar buttonText={["Home", "About Me", "Resume", "Portfolio", "Freelance"]}></NavBar>
+
             {/* TODO: Sidebar component */}
         </div>
     )

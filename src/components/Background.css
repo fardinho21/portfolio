@@ -2,49 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* border: 2px solid green; */
+    position: fixed;
+    width: 100%;
+    height: 100% !important;
     z-index: -2;
-    /* border: 2px solid red; */
 }
 
 
 video {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    object-fit: fill;
-}
-
-/* .overlay-left {
-    background: linear-gradient(to left, black, 20%, transparent);
-}
-
-.overlay-right {
-    background: linear-gradient(to right, black, 20%, transparent);
-} */
-
-.fill {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-}
-
-@media screen and (max-height: 1100px) {
-    .portrait {
-        visibility: hidden;
-    }
-    .landscape {
-        visibility: visible;
-        width: 100vw;
-    }
-}
-
-@media screen and (min-height: 1101px) {
-    .portrait {
-        visibility: visible;
-        width: 100% !important;
-    }
-    .landscape {
-        visibility: hidden;
-    }
+    object-fit: cover;
 }
