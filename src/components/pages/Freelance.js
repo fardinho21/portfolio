@@ -10,6 +10,7 @@ const Freelance = () => {
         <Card>
             <div className="Freelance">
                 <div className="fiver">
+                    {/* Clicking fivver icon should open my fivver page */}
                     <Picture image={fiverIcon} width="300px" height="300px"></Picture>
                     <p>
                         Visit my Fiverr page!
@@ -18,6 +19,7 @@ const Freelance = () => {
                 <hr></hr>
                 <div className="contact">
                     {/* TODO: display email form on Contact button click */}
+                    {/* TODO: Clicking contact button redirects to nonexistent page */}
                     <Button color="white">Contact</Button>
                     <p>
                         Like my work? Send in a contact form!
