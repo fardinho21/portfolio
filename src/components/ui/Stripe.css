@@ -4,10 +4,11 @@
     position: relative;
     /* border: solid 5px red; */
     box-sizing: border-box;
+    text-align: center;
 
 }
 
-h1 {
+.Stripe > h1 {
     position: relative;
     top: 35%;
     font-size: 50px;

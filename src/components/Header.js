@@ -8,7 +8,7 @@ const Header = () => {
         <div className="Header Header-Pattern">
 
             <Picture></Picture>
-            <NavBar buttonText={["Home", "About Me", "Resume", "Portfolio", "Freelance"]}></NavBar>
+            <NavBar buttonText={["Home", "About Me", "Resume", "Projects", "Freelance"]}></NavBar>
 
             {/* TODO: Sidebar component */}
         </div>
