@@ -13,7 +13,7 @@ const Resume = () => {
                 <article className="resume">
                     <h2 className="goal">Goal</h2>
                     <section>
-                        I want to improve my technical skills in order to become an industry-ready software engineer.
+                        I want to land an Entry-Level Web Developer position.
                     </section>
                 </article>
                 <h2>Education</h2>
@@ -50,7 +50,7 @@ const Resume = () => {
                 <article className="resume">
 
                     <section className="dates">
-                        <div style={{gridTemplateRows: "46% 54%"}}>
+                        <div style={{gridTemplateRows: "40% 60%"}}>
                             <p>Nov. 2021 - Present</p>
                             <p>Jun. 2019 - Nov. 2019</p>
                         </div>
@@ -61,13 +61,10 @@ const Resume = () => {
                                 Iconma LLC - Software Quality Operations Associate, supporting Waymo LLC
 
                                 <p>
-                                    Utilized Waymo's proprietary software tools and workflows to configure simulation frameworks for their self-driving car platforms.
+                                    Utilized Waymo's proprietary software tools and workflows to configure simulation frameworks for their self-driving car platform.
                                 </p>
                                 <p>
                                     Consistently met production metrics
-                                </p>
-                                <p>
-                                    Implemented UI automation scripts using Python to save time on varous workflows.
                                 </p>
                             </li>
 
@@ -98,13 +95,14 @@ const Resume = () => {
                         {/* This was intentionally left blank */}
                     </section>
                     <section className="description">
-                        <ul >
-                            <p>Software Development, Design Patterns, and Debugging</p>
+                        <ul style={{listStylePosition: "outside"}}>
+                            <p>Software Development, Responsive UI Design, Design Patterns, and Debugging</p>
                             <p>Communication and Document Preparation</p>
-                            <p>Web Development, Component-Based Design, Angular 8, Django, ReactJS</p>
+                            <p>Front-end: ReactJS, Django, Angular 8</p>
+                            <p>Back-end: NodeJS, ExpressJS</p>
                             <p>Python, C++, and Javscript</p>
                             <p>Web Scraping and Research</p>
-                            <p>General knowledge of Computer Networks and Apppcation Architecture</p>
+                            <p>General knowledge of Computer Networks, System Administration, and Application Architecture</p>
                         </ul>
                     </section>
 

@@ -1,10 +1,10 @@
 .MainContent {
     display: flex;
+    justify-content: space-around;
     position: relative;
     top: 15vh;
     height: 50%;
-    /* text-align: center; */
-    /* border: solid 5px blue; */
+    padding: 0 5% 0 5%;
 }
 
 @media screen and (max-width: 299px) {

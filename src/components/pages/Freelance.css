@@ -1,0 +1,35 @@
+.Freelance {
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    justify-content: space-between;
+}
+
+.fiver {
+    display: flex;
+    /* border: solid 1px red; */
+}
+
+.fiver > p {
+    text-align: center;
+    margin: auto;
+    /* border: solid 1px red; */
+    width: 50%;
+    font-size: xx-large;
+}
+
+hr {
+    color:white;
+    height: 10px;
+    background:white;
+    margin: 0 0 2rem 0;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact > p {
+    text-align: center;
+    margin: auto;
+}

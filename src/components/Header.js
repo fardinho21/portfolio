@@ -4,10 +4,13 @@ import Picture from "./Picture";
 import "./Header.css";
 
 const Header = () => {
+
+    const headshot = "http://cse.msu.edu/~fardinho/images/0.jpeg";
+
     return (
         <div className="Header Header-Pattern">
 
-            <Picture></Picture>
+            <Picture image={headshot} top="100px" border="inset 25px green" width="300px" height="300px"></Picture>
             <NavBar buttonText={["Home", "About Me", "Resume", "Projects", "Freelance"]}></NavBar>
 
             {/* TODO: Sidebar component */}

@@ -1,7 +1,6 @@
 import React from "react";
 import "./Background.css";
-import video1 from '../Videos/background-lc.mp4';
-import video2 from '../Videos/background-pt.mp4';
+import video2 from '../media/background-pt.mp4';
 const Background = () => {
     return (
         <div className="Background">
