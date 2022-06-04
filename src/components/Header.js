@@ -5,7 +5,7 @@ import "./Header.css";
 
 const Header = () => {
     return (
-        <div className="Header">
+        <div className="Header Header-Pattern">
 
             <Picture></Picture>
             <NavBar buttonText={["Home", "About Me", "Resume", "Portfolio", "Freelance"]}></NavBar>
