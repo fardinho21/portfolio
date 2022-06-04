@@ -6,14 +6,11 @@ const Stripe = props => {
             transform: `rotate(${props.slant})`,
             top: `${props.top}%`, 
             right: `${props.right}%`,
-            background: props.color,
-            opacity: props.opacity}}>
-                <h1>
+            background: props.color}}>
+                <h1 style={{transform: `rotate(calc(-1*${props.slant}))`}}>
                     {props.children}
                 </h1>
-                {/* TODO: Center Stripe's text */}
         </div>
     )
 }
-
-export default Stripe;
+export default Stripe; 
