@@ -10,7 +10,7 @@ const Freelance = () => {
         <Card>
             <div className="Freelance">
                 <div className="fiver">
-                    {/* Clicking fivver icon should open my fivver page */}
+                    {/*TODO: Clicking fivver icon should open my fivver page */}
                     <Picture image={fiverIcon} width="300px" height="300px"></Picture>
                     <p>
                         Visit my Fiverr page!
