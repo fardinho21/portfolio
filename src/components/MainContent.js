@@ -12,13 +12,13 @@ import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Freelance from "./pages/Freelance";
 
-const MainContent = () => {
+const MainContent = props => {
     return (
         <div className="MainContent">
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/Home" element={<Home/>}/>
-                <Route path="/Freelance" element={<Freelance/>}/>
+                <Route path="/Freelance" element={<Freelance showContactForm={props.onShowContactForm}/>}/>
                 <Route path="/About%20Me" element={<AboutMe/>}/>
                 <Route path="/Resume" element={<Resume/>}/>
                 <Route path="/Projects" element={<Projects/>}/>

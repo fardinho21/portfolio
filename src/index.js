@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import Background from './components/Background';
 import reportWebVitals from './reportWebVitals';
+import ContactFormModal from './components/ContactFormModal';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

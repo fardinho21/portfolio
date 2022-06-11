@@ -1,11 +1,14 @@
 import React from "react";
 import "./Freelance.css";
 import Card from "../ui/Card";
-import Button from "../ui/Button";
+import ButtonModal from "../ui/ButtonModal";
 import fiverIcon from "../../media/fi.png" ;
 import Picture from "../Picture";
 
-const Freelance = () => {
+
+
+const Freelance = props => {
+    
     return (
         <Card>
             <div className="Freelance">
@@ -18,11 +21,10 @@ const Freelance = () => {
                 </div>
                 <hr></hr>
                 <div className="contact">
-                    {/* TODO: display email form on Contact button click */}
-                    {/* TODO: Clicking contact button redirects to nonexistent page */}
-                    <Button color="white">Contact</Button>
+                    {/* TODO: contact form modal does not display on button click */}
+                    <ButtonModal color="white" onClick={props.onShowContactFrom}>Contact</ButtonModal>
                     <p>
-                        Like my work? Send in a contact form!
+                        Like my work? Fill out the contact form!
                     </p>
                 </div>
             </div>
