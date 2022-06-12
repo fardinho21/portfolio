@@ -1,7 +1,31 @@
+.wrapper  {
+    border: solid 5px violet;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    /* TODO: layout breaks when modal is displayed */
+}
+
 .ModalOverlay {
     background: rgb(0,0,0,0.5);
+    box-sizing: border-box;
     width: 100%;
     height: 100%;
-    position: absolute;
-    z-index: -1;
+    position: fixed;
 }
+
+
+.card-wrapper {
+    box-sizing: border-box;
+    width: 80%;
+    z-index: 101;
+    display: flex;
+    justify-content: space-around;
+    margin:auto;
+}
+
+
+

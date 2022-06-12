@@ -1,9 +1,7 @@
-import React, {Fragment} from "react";
-import { createPortal } from "react-dom";
+import React from "react";
 import "./ContactFormModal.css";
 import Card from "./ui/Card";
 
-const portalElement = document.getElementById("modal-overlay");
 
 const ModalOverlay = () => {
     return <div className="ModalOverlay"></div>
@@ -11,10 +9,12 @@ const ModalOverlay = () => {
 
 const ContactFormModal = props => {
     return (
-        <Fragment>
-            {createPortal(<ModalOverlay/>, portalElement)}
-            {createPortal(<Card>{props.children}</Card>, portalElement)}
-        </Fragment>
+        <div className="wrapper">
+            <ModalOverlay/>
+            <div className="card-wrapper">
+                <Card>{props.children}</Card>
+            </div>
+        </div>
     )
 }
 

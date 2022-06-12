@@ -6,17 +6,20 @@ import MainContent from './components/MainContent';
 const App = () => {
 
   
-  const [showContactFormState, showContactForm] = useState(false);
+  const [showContactFormState, setShowContactFormState] = useState(false);
 
   const onShowContactForm = () => {
-    showContactForm(!showContactFormState);
-    console.log(showContactFormState)
+    setShowContactFormState(!showContactFormState);
+    console.log(showContactFormState);
   }
+
+  onShowContactForm.bind(this)
 
   return (
     <div className='App'>
+      {showContactFormState && <ContactForm/>}
       <Header></Header>
-      <MainContent showContactForm={onShowContactForm}></MainContent>
+      <MainContent onShowContactForm={onShowContactForm}></MainContent>
     </div>
   );
 }

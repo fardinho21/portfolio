@@ -21,8 +21,7 @@ const Freelance = props => {
                 </div>
                 <hr></hr>
                 <div className="contact">
-                    {/* TODO: contact form modal does not display on button click */}
-                    <ButtonModal color="white" onClick={props.onShowContactFrom}>Contact</ButtonModal>
+                    <ButtonModal color="white" onShowContactForm={props.onShowContactForm}>Contact</ButtonModal>
                     <p>
                         Like my work? Fill out the contact form!
                     </p>
