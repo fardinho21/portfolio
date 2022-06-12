@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <div className="Header Header-Pattern">
 
-            <Picture image={headshot} top="100px" border="inset 25px green" width="300px" height="300px"></Picture>
+            <Picture image={headshot} top="100px" border="inset 25px green" width="300px" height="300px" margin="0"/>
             <NavBar buttonText={["Home", "About Me", "Resume", "Projects", "Freelance"]}></NavBar>
 
             {/* TODO: Sidebar component */}
