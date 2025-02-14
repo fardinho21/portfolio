@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <div className='App'>
-      {showContactFormState && <ContactForm/>}
+      {showContactFormState && <ContactForm onShowContactForm={onShowContactForm}/>}
       <Header></Header>
       <MainContent onShowContactForm={onShowContactForm}></MainContent>
     </div>

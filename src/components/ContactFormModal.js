@@ -3,14 +3,14 @@ import "./ContactFormModal.css";
 import Card from "./ui/Card";
 
 
-const ModalOverlay = () => {
-    return <div className="ModalOverlay"></div>
+const ModalOverlay = (props) => {
+    return <div className="ModalOverlay" onClick={props.onClick} ></div>
 }
 
 const ContactFormModal = props => {
     return (
         <div className="wrapper">
-            <ModalOverlay/>
+            <ModalOverlay onClick={props.onShowContactForm} />
             <div className="card-wrapper">
                 <Card>{props.children}</Card>
             </div>

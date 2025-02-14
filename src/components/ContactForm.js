@@ -10,7 +10,7 @@ const handleSubmit = event => {
 
 const ContactForm = props => {
     return(
-        <ContactFormModal>
+        <ContactFormModal onShowContactForm={props.onShowContactForm}>
             <div className="ContactForm">
                 <h3>Contact Form</h3>
                 <hr></hr>

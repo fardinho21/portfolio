@@ -5,17 +5,16 @@ const AboutMe = () => {
     return (
         <Card>
             <p>
-                Exercitation voluptate consequat id aliqua voluptate ut amet Lorem culpa non esse laborum mollit non. Deserunt proident cillum minim adipisicing labore elit tempor Lorem aliquip veniam labore sint. Cillum aliquip enim exercitation consequat nostrud irure veniam velit aliquip ex occaecat dolore aliquip et. Aliquip aute fugiat elit adipisicing proident culpa dolore magna id nulla elit exercitation.
-
-                Exercitation elit qui ad Lorem sunt incididunt Lorem mollit ipsum sunt Lorem commodo. Aliqua sint id elit dolore proident et cupidatat id enim laborum. Do ut nisi duis ea incididunt laborum qui excepteur. Anim aliqua commodo reprehenderit occaecat culpa quis mollit deserunt officia anim proident do. Reprehenderit nostrud et consectetur exercitation.
-
-                Quis incididunt aute veniam in cupidatat ipsum consectetur reprehenderit quis proident. Laboris incididunt ad velit nulla. Consequat exercitation commodo sunt nulla labore adipisicing. Ipsum officia veniam aute ex adipisicing fugiat. Enim dolor officia proident ut ullamco nostrud reprehenderit.
-
-                Et aliquip esse velit elit in laborum Lorem nulla. Adipisicing dolore mollit sint nulla elit sit. Incididunt veniam pariatur cillum ex ea minim magna nulla veniam. Culpa ut excepteur aliquip laboris nisi cillum. Nisi laboris duis ad eiusmod aliquip occaecat enim amet dolor enim magna aliquip nulla.
-
-                Culpa consectetur adipisicing et mollit voluptate in aliqua anim et ad occaecat laboris irure ex. Aute dolore officia irure minim officia. Velit sint esse incididunt ut aliqua esse excepteur magna duis exercitation adipisicing sunt aliqua commodo. Officia aliquip dolore non quis velit fugiat officia veniam. Excepteur amet ullamco occaecat nisi ut in quis cillum nostrud cillum sunt. Laboris et irure exercitation eu nostrud nostrud excepteur ut pariatur. Culpa et enim commodo excepteur elit.
-
-                Nulla excepteur duis exercitation nostrud elit amet consectetur aute eiusmod nisi. Adipisicing dolor eu ipsum commodo magna commodo. Duis aute amet sint exercitation ea officia ipsum et dolor laborum aliqua proident do. Deserunt dolor ipsum nulla laboris sunt aute magna ipsum tempor minim et. Qui ullamco quis sit sit culpa do incididunt ullamco ut enim aute est occaecat.
+                I am a skilled software engineer and test engineer with experience in software development, quality assurance, and testing. My expertise includes writing and validating software deliverables, reviewing code to ensure compliance with coding standards, and overseeing the software development life cycle to maintain best practices.
+                <br></br>
+                <br></br>
+                Beyond my technical expertise, I have a deep passion for building creative projects that merge software development with artistic expression. One of my most notable projects is a React.js-based arpeggio guitar tabulator that dynamically generates arpeggio patterns based on user-provided musical scales. By leveraging React’s component-based structure, I designed an intuitive interface where users can input a scale, and the application generates arpeggiated note sequences in tablature format. This project reflects my ability to combine algorithmic problem-solving with user-centric design while reinforcing my enthusiasm for software applications in music and the arts.
+                <br></br>
+                <br></br>
+                In addition to development, I have a strong background in software testing and quality assurance. I have conducted hardware-in-loop tests to evaluate software performance on various platforms, written unit tests to verify the functionality of code against design specifications, and performed troubleshooting to identify and resolve software defects efficiently.
+                <br></br>
+                <br></br>
+                With a detail-oriented approach and a commitment to delivering high-quality software, I strive to enhance software reliability and performance through rigorous testing and development processes. I am passionate about ensuring software meets industry standards and user expectations while also exploring innovative ways to apply technology to creative domains.
             </p>
         </Card>
     )
