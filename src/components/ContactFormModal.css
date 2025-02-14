@@ -1,5 +1,4 @@
 .wrapper {
-    border: solid 5px violet;
     position: fixed;
     box-sizing: border-box;
     width: 100%;
@@ -22,6 +21,5 @@
     box-sizing: border-box;
     width: 50%;
     z-index: 101;
-    border: solid 1px red;
 
 }
