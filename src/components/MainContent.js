@@ -19,7 +19,6 @@ const MainContent = props => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Home" element={<Home />} />
-                {/* <Route path="/Freelance" element={<Freelance onShowContactForm={props.onShowContactForm}/>}/> */}
                 <Route path="/About%20Me" element={<AboutMe />} />
                 <Route path="/Resume" element={<Resume />} />
                 <Route path="/Projects" element={<Projects />} />

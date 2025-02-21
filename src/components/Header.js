@@ -12,7 +12,7 @@ const Header = (props) => {
         <div className="Header Header-Pattern">
 
             <Picture image={headshot} top="100px" border="inset 25px green" width="300px" height="300px" margin="0" />
-            <NavBar buttonText={["Home", "About Me", "Resume", "Projects", "Freelance"]}></NavBar>
+            <NavBar buttonText={["Home", "About Me", "Resume", "Projects"]}></NavBar>
 
             {/* TODO: Sidebar component */}
         </div>
