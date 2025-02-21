@@ -4,7 +4,7 @@ import project_image from "../../media/arpgen.png"
 
 const Projects = () => {
     return (
-        <a href="http://arpgen.servehttp.com:8080">
+        <a href="https://arpgen.servehttp.com:8443">
             <img src={project_image} alt="arpeggio"  >
             </img>
         </a>
