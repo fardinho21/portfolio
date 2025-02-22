@@ -1,18 +1,17 @@
-img
-{
+img {
     margin: auto;
-    border:inset 10px gold;
+    border: inset 10px gold;
     transition: all 0.3s ease;
 }
 
-img:hover
-{
+img:hover {
     cursor: pointer;
     box-shadow: 0 0 10px 5px gold;
     transform: scale(1.05);
 }
 
-a
-{
+.ArpGen {
+    margin-top: 1rem;
     margin: auto;
+
 }
