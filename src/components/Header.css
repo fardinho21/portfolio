@@ -16,7 +16,6 @@
 .Header {
     display: flex;
     align-items: flex-end;
-    /* border: solid 1px red; */
     height: 250px;
 }
 

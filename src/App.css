@@ -1,11 +1,5 @@
-.App {
-  border: solid 3px cyan;
-}
-
-.WrapperSideBar {
-  width: 100px;
-  height: 100px;
-  border: solid 5px red;
-
-
+@media screen and (min-width: 900px) {
+  .WrapperSideBar {
+    display: none;
+  }
 }

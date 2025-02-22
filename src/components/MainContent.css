@@ -6,7 +6,6 @@
     width: 100%;
     margin: 0;
     padding: 20% 5% 10% 5%;
-    border: solid 5px blue;
 }
 
 @media screen and (max-width: 299px) {

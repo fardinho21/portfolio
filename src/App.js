@@ -27,8 +27,17 @@ const App = () => {
       <Header onSetShowSideBarButtonClick={onShowSideBarButtonClick}></Header>
       <MainContent onShowContactForm={onShowContactForm}></MainContent>
 
-      <div className='WrapperSideBar'>
+      <div className="WrapperSideBar" onClick={onShowSideBarButtonClick} style={{
+        width: showSideBarState ? "500px" : "0px",
+        height: "100%",
+        position: "fixed",
+        top: "0",
+        right: "0",
+        transition: "width 0.5s ease-in-out",
+        background: "rgba(0,0,0,50%)",
 
+      }}>
+        <SideBar />
       </div>
 
     </div>

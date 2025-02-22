@@ -1,6 +1,5 @@
 .SideBar {
 
-    border: solid 5px cyan;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
