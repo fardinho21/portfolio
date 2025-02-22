@@ -1,6 +1,5 @@
-.SideBar {
-
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
+@media screen and (min-width: 900px) {
+    .WrapperSideBar {
+        display: none;
+    }
 }

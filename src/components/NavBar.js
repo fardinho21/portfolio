@@ -6,7 +6,7 @@ const NavBar = props => {
 
     const [selectedPage, setSelectedPage] = useState("Home");
 
-    return <div className="NavBar">
+    return <div className="NavBar" id={props.orientation}>
         {props.buttonText.map((text, index) => <Button
             setSelectedPage={setSelectedPage}
             key={index}

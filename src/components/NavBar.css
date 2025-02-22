@@ -9,7 +9,19 @@
 
 
 @media screen and (max-width: 900px) {
-    .NavBar {
+    .NavBar#horizontal {
         display: none;
     }
+
+
+    .NavBar#vertical {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content: space-evenly;
+        box-sizing: border-box;
+        margin: auto;
+        height: 100%;
+    }
+
 }

@@ -10,7 +10,7 @@ const Header = (props) => {
         <div className="Header Header-Pattern">
 
             <Picture image={headshot_image} top="100px" border="inset 25px rgba(24, 69, 59, 0.8)" width="300px" height="300px" margin="0" />
-            <NavBar buttonText={["Home", "About Me", "Resume", "Projects"]}></NavBar>
+            <NavBar orientation="horizontal" sideBarState={props.showSideBarState} buttonText={["Home", "About Me", "Resume", "Projects"]}></NavBar>
 
             <div className='ToggleSideBarButton Button' onClick={props.onSetShowSideBarButtonClick}>
                 {"<<"}
