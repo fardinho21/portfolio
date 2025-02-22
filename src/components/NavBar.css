@@ -1,4 +1,4 @@
-.NavBar {
+.NavBar#horizontal {
     display: flex;
     flex-direction: row;
     width: 60%;
