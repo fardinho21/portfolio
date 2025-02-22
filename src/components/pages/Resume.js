@@ -59,18 +59,85 @@ const Resume = () => {
                         <ul>
                             <li>
                                 DCS Corporation - Software Engineer | Scrum Master | Test Engineer
-                                <p>
-                                    Worked with Dr. Renfu Lu and his research team in preparing an apple sorter machine for an in-field demonstration
-                                </p>
-                                <p>
-                                    Programmed microcontrollers for control circuits
-                                </p>
-                                <p>
-                                    Trobleshooted sesor and relay circuits
-                                </p>
-                                <p>
-                                    Reorganized the lab space
-                                </p>
+                                <ul>
+                                    <li id="role">
+                                        Software Engineer
+                                        <ul id="contribution">
+                                            <li>
+                                                <p>
+                                                    Averaged 3000+ lines of code per 2-week sprints
+
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    Wrote python scripts and bash scripts to stream-line development and set-up workflows
+
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    Improved CICD pipeline by adding formatter and static analysis tools
+
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    Implemented service, clients, and abstract interfaces for a network middleware protocol
+                                                </p>
+
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    <li id="role">
+                                        Test Engineer
+                                        <ul id="contribution">
+                                            <li>
+                                                <p>
+                                                    Integrated google-tests unit tests framework into our testing workflows and wrote unit tests for the code-base to identify bugs or deviations from software design
+                                                </p>
+
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    Serviced HIL test and integration events on platforms using our code
+                                                </p>
+
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    Expanded testing contexts
+                                                </p>
+
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="role">
+                                        Scrum Master / Flow Manager
+                                        <ul id="contribution">
+                                            <li>
+                                                <p>
+                                                    Conducted Agile Ceremonies such as Sprint Stand-up, Sprint Review, Sprint Retrospective, Sprint Planning, and managed the Jira Board
+                                                </p>
+
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    Collected developer metrics to accurately measure and communicate team work capacity to interested stakeholders
+                                                </p>
+
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    Assisted developers in resolving technical and conceptual blockers to their Sprint Deliverabes
+                                                </p>
+
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                </ul>
                             </li>
                             <li >
                                 Iconma LLC - Software Quality Operations Associate, supporting Waymo LLC
@@ -97,13 +164,15 @@ const Resume = () => {
                     </section>
                     <section className="description">
                         <ul style={{ listStylePosition: "outside" }}>
-                            <p>Software Engineering and Development: Experience with Waterfall and Agile SDLC, from requirements gathering, planning, development and delivery</p>
-                            <p>Application Secuirty: Implementing TLS (Man-in-the-Middle countermeasure), input-validation and input-sanitization (XSS attack countermeasure), and session management via tokens</p>
-                            <p>Full-Stack Development: MongoDB, Express.js, React.js, and Node.js (MERN stack)</p>
                             <p>Programming Languages: Python3.10 (7 years), C++11 (4 years), and ES6 Javascript (4 years)</p>
                             <p>Web Scraping: Python Scrapy and Node.js Playwright</p>
-                            <p>Communication and Document Preparation</p>
+                            <p>Software Engineering and Development: Experience with Waterfall and Agile SDLC, from requirements gathering, planning, development and delivery</p>
+                            <p>Full-Stack Development: MongoDB, Express.js, React.js, and Node.js (MERN stack)</p>
+                            <p>Application Secuirty: Implementing TLS (Man-in-the-Middle countermeasure), input-validation and input-sanitization (XSS attack countermeasure), and session management via tokens</p>
                             <p>General knowledge of Computer Networks, System Administration, and Application Architecture</p>
+                            <p>UI: responsive design using HTML and CSS Flexbox</p>
+                            <p>Operating Systems: Ubuntu/Linux and Windows</p>
+                            <p>Communication and Document Preparation</p>
                         </ul>
                     </section>
 

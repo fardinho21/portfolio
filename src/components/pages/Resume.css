@@ -38,11 +38,28 @@ li > p{
     padding-left: 2em !important;
     font-weight: initial;
 }
+li#role
+{
+    padding-left:2.2rem;
+}
+li#role>ul#contribution
+{
+    font-weight: normal !important;
+    list-style: none;
+    
+}
+
 
 ul > p {
     display: list-item;
     list-style-position: inside;
     font-weight: normal;
+}
+
+ul#contribution>li>p
+{
+    list-style-type: square;
+    list-style-position: inside;
 }
 
 
