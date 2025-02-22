@@ -1,9 +1,9 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import {
     BrowserRouter as Router,
     Routes,
     Route,
-    Link
+    useLocation
 } from "react-router-dom";
 import "./MainContent.css";
 import AboutMe from "./pages/AboutMe";
@@ -13,6 +13,10 @@ import Resume from "./pages/Resume";
 import Freelance from "./pages/Freelance";
 
 const MainContent = props => {
+    const location = useLocation();
+    useEffect(() => {
+        console.log(location.pathname)
+    })
 
     return (
         <div className="MainContent">
