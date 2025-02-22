@@ -12,11 +12,9 @@ const App = () => {
 
   const onShowContactForm = () => {
     setShowContactFormState(!showContactFormState);
-    console.log(showContactFormState);
   }
   const onShowSideBarButtonClick = () => {
     setShowSideBarState(!showSideBarState)
-    console.log(showSideBarState)
   }
 
   onShowContactForm.bind(this)
